@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using DGTempCF.Web.Models;
+using DGTempCF.Data;
+using DGTempCF.DataModels;
 
 namespace DGTempCF.Web
 {

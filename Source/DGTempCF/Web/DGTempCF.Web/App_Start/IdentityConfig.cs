@@ -11,6 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using DGTempCF.Web.Models;
+using DGTempCF.DataModels;
+using DGTempCF.Data;
 
 namespace DGTempCF.Web
 {
