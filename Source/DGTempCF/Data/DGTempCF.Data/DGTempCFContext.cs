@@ -9,11 +9,8 @@ namespace DGTempCF.Data
         public DGTempCFContext() : base("DGTempCF")
         {
         }
-
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<Enrollment> Enrollments { get; set; }
-        public DbSet<Course> Courses { get; set; }
+         
+        public DbSet<Employee> Employees { get; set; } 
         public DbSet<File> Files { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
